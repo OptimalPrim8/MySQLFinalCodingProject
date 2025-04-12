@@ -108,6 +108,7 @@ public static void main(String[] args) {
 		    project.setDifficulty(Objects.isNull(difficulty) ? curProject.getDifficulty() : difficulty);
 		    project.setNotes(Objects.isNull(notes) ? curProject.getNotes() : notes);
 }
+	}
 	private void selectProject() {
         listProjects();
         Integer projectId = getIntInput("Enter a project ID to select a project");
